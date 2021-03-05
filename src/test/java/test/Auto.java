@@ -11,7 +11,7 @@ public class Auto {
     static int cantidacreados;
 
     public int cantidadAsientos() {
-        return asientos.length;
+        return this.asientos.length;
     }
 
     public String verificarIntegridad() {
